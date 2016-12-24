@@ -62,6 +62,6 @@
 
         // are the following correct ???
         final_color[0] = lightColor[0] * NdotL * (dr + sr * specular);
-        final_color[1] = lightColor[1] * NdotL * (dr + sr * specular);
-        final_color[2] = lightColor[2] * NdotL * (dr + sr * specular);
+        final_color[1] = lightColor[1] * NdotL * (dg + sg * specular);
+        final_color[2] = lightColor[2] * NdotL * (db + sb * specular);
     }
